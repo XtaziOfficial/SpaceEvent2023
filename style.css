@@ -1,0 +1,205 @@
+@font-face {
+    font-family: Saira;
+    src: url(media/sairaFont.ttf);
+}
+
+:root {
+    --darkelEment: #0F0C1C;
+    --mainBG: #230C25;
+    --h1Font: Saira;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(45deg, rgba(46,17,49,1) 0%, rgba(106,33,114,1) 100%);
+}
+
+body {
+    background: url(media/pageBG.jpg) no-repeat;
+    background-size: 100%;
+}
+
+header {
+    height: 100px; width: 100%;
+    background-color: var(--darkelEment);
+}
+
+.main {
+    position: static;
+    height: 70vh; width: 100vw;
+}
+.mainBlock {
+    position: relative;
+    top: 10%;
+    text-align: right;
+}
+
+h1 {
+    font-family: 'Saira', sans-serif;
+}
+
+.titleText {
+    margin: 5%;
+    font-size: 72px;
+    -webkit-text-fill-color: #fff;
+    text-shadow: 0px 0px 10px #fff;
+}
+
+.headerElements {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+/* Month block style */
+
+.Month {
+    
+}
+
+.Jan, .Feb, .Mar, .Apr, .May, .Jun, .Jul, .Aug, .Sep, .Oct, .Nov, .Dec {
+    margin-left: 4.3vw;
+    margin-bottom: 10vh;
+    position: static;
+    height: 80vh; width: 90vw;
+    border-radius: 40px;
+
+    box-shadow: 0px 0px 50px;
+}
+
+.bgJan, .bgMar, .bgMay, .bgJul, .bgSep, .bgNov, .bgFeb, .bgApr, .bgJun, .bgAug, .bgOct, .bgDec {
+    height: 100%;
+    width: 100%;
+    border-radius: 40px;
+
+}
+
+.bgJan {
+    background: linear-gradient(90deg, rgb(15 12 28 / 1), rgb(15 12 28 / 1) 50%, transparent), url(media/janBG.jpg) no-repeat;
+    background-position-x: right;
+    margin-left:auto;
+    background-size: 100%;
+}
+
+.bgFeb {
+    background: linear-gradient(270deg, rgb(15 12 28 / 1), rgb(15 12 28 / 1) 50%, transparent), url(media/febBG.jpg) no-repeat;
+    background-position-x: left;
+    background-size: 100%;
+}
+
+.bgMar {
+    background: linear-gradient(90deg, rgb(15 12 28 / 1), rgb(15 12 28 / 1) 50%, transparent), url(media/marBG.jpg) no-repeat;
+    background-position-x: right;
+    margin-left:auto;
+    background-size: 100%;
+
+}
+
+.bgApr {
+    background: linear-gradient(270deg, rgb(15 12 28 / 1), rgb(15 12 28 / 1) 50%, transparent), url(media/aprBG.jpg) no-repeat;
+    background-position-x: left;
+    background-size: 100%;
+}
+
+.bgMay {
+    background: linear-gradient(90deg, rgb(15 12 28 / 1), rgb(15 12 28 / 1) 50%, transparent), url(media/mayBG.jpg) no-repeat;
+    background-position-x: right;
+    margin-left:auto;
+    background-size: 100%;
+
+}
+
+.bgJun {
+    background: linear-gradient(270deg, rgb(15 12 28 / 1), rgb(15 12 28 / 1) 50%, transparent), url(media/junBG.jpg) no-repeat;
+    background-position-x: left;
+    background-size: 100%;
+
+}
+
+.bgJul {
+    background: linear-gradient(90deg, rgb(15 12 28 / 1), rgb(15 12 28 / 1) 50%, transparent), url(media/julBG2.jpg) no-repeat;
+    background-position-x: right;
+    margin-left:auto;
+    background-size: 100%;
+}
+
+.bgAug {
+    background: linear-gradient(270deg, rgb(15 12 28 / 1), rgb(15 12 28 / 1) 50%, transparent), url(media/augBG.jpg) no-repeat;
+    background-position-x: left;
+    background-size: 100%;
+}
+
+.bgSep {
+    background: linear-gradient(90deg, rgb(15 12 28 / 1), rgb(15 12 28 / 1) 50%, transparent), url(media/sepBG.jpg) no-repeat;
+    background-position-x: right;
+    margin-left:auto;
+    background-size: 100%;
+}
+
+.bgOct {
+    background: linear-gradient(270deg, rgb(15 12 28 / 1), rgb(15 12 28 / 1) 50%, transparent), url(media/octBG.jpg) no-repeat;
+    background-position-x: left;
+    background-size: 100%;
+}
+
+.bgNov{ 
+    background: linear-gradient(90deg, rgb(15 12 28 / 1), rgb(15 12 28 / 1) 50%, transparent), url(media/novBG.jpg) no-repeat;
+    background-position-x: right;
+    margin-left:auto;
+    background-size: 100%;
+}
+
+.bgDec {
+    background: linear-gradient(270deg, rgb(15 12 28 / 1), rgb(15 12 28 / 1) 50%, transparent), url(media/decBG.jpg) no-repeat;
+    background-position-x: left;
+    background-size: 100%;
+}
+
+/* Text style */
+
+#textLeft {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#textRight {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: flex-end;
+
+}
+
+ul {
+    margin-right: 16px;
+    list-style-type: none;
+    line-height: 3;
+}
+
+li {
+    font-size: 1.5rem;
+    font-family:'Saira', sans-serif;
+    -webkit-text-fill-color: #fff;
+    text-shadow: 0px 0px 2px #fff;
+}
+
+li:hover {
+    text-shadow: 0px 0px 20px #fff;
+}
+
+/* Footer style */
+
+footer {
+    height: 200px; width: 100vw;
+    background-color: var(--darkelEment);
+}
